@@ -1,0 +1,129 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Online Auto Booking Form a Responsive Widget Template :: w3layouts
+  </title>
+  <!-- Meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords"
+    content="Online Auto Booking Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script type="application/x-javascript">
+    addEventListener("load", function() {
+      setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+      window.scrollTo(0, 1);
+    }
+
+    // $(function () {
+    //   $("#next").click(function () {
+    //     var opp = !$("#selectMe")[1].checked;
+    //     opp = alert("請先閱讀規章及勾選同意")
+    //   });
+
+    $(function () {
+      $("#selectMe").click(function () {
+        var obj = $("#next").get(0);
+        obj.disabled = !$("#selectMe")[0].checked;
+      });
+    });
+  </script>
+  <!-- //Meta tags -->
+  <!-- Stylesheet -->
+  <link href="css/wickedpicker.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <!-- //Stylesheet -->
+  <!--fonts-->
+  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" />
+  <link href="//fonts.googleapis.com/css?family=Montserrat+Alternates:200,400,500,600,700" rel="stylesheet" />
+  <!--//fonts-->
+</head>
+
+<style>
+.book-appointment p {
+  text-align: start;
+  font-size: 15px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0.4em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+</style>
+
+<body>
+  <!--background-->
+  <div class="bg-agile">
+    <div class="book-appointment">
+      <h2>公關規章</h2>
+      <p>1.禁止留客戶,同桌小姐的資料與連絡方式。</p>
+      <p>2.禁止給客人放鳥,早退,沒正當理由當天沒擡費,罰款10000。</p>
+      <p>3.禁止私下坐擡,私派公關,違規罰款10000。</p>
+      <p>4.禁止白目過嘴私下閒聊客戶,違規罰款5000。</p>
+      <p>5.照片與本人嚴重不符合被客人打槍三次往下跳一個階段,車馬費補貼500。</p>
+      <p>6.大遲到一小時以上罰款3000。</p>
+      <p>7.上台勿一直玩手機或當花瓶,客人投訴罰3000。</p>
+      <p>8.嚴禁賭博,客人硬要公關陪玩需回報總機不然罰款當天台費一半。</p>
+      <p>9.禁止惡意散播及毀謗他人或亂講壞話挑撥關係、照片外流、名譽損壞,查證屬實
+        罰款最低10000元並附上道歉文。</p>
+      <p>10.嚴禁與客人討論價錢或實拿價錢,違規者罰3000。</p>
+      <p>11.包養單面試客人需付擡費與車資。</p>
+      <p>12.若私下與客人通告不管有沒有收錢沒告知總機罰款10000。</p>
+      <p>13.下台離開現場要立馬回報,否則什麼時候回報就算到什麼時候。</p>
+      <p>14.上台後非重大理由不得早退需證明,違規者罰10000。</p>
+      <p>15.如欲偷竊者查證屬實檯費沒收罰款10000,並賠償客人損失,並公開偷竊行為。</p>
+      <p>16.台上有臨時狀況發生,需立馬回報總機,同台小姐需幫忙回報。</p>
+      <p>17.須年滿十八歲以上。</p>
+      <p>18.下桌24小時内匯款。</p>
+      <p>19.違規者一次以上需繳保證金6000才能繼續報班。</p>
+      <br>
+      <div class="book-agileinfo-form">
+        <form action="./woman_resgistered.php">
+          <input type="checkbox" id="selectMe" /><span style="color: white;">請同意規章</span>
+          <br>
+          <input type="submit" id="next" value="下一步" disabled="disabled" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--copyright-->
+  <div class="copy-w3layouts">
+
+  </div>
+  <!--//copyright-->
+  <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+  <!-- Time -->
+  <script type="text/javascript" src="js/wickedpicker.js"></script>
+  <script type="text/javascript">
+    $('.timepicker').wickedpicker({
+      twentyFour: false,
+    })
+  </script>
+  <!--// Time -->
+  <!-- Calendar -->
+  <script src="js/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $('#datepicker,#datepicker1,#datepicker2,#datepicker3').datepicker()
+    })
+  </script>
+  <!-- //Calendar -->
+</body>
+
+</html>
